@@ -1,0 +1,143 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Mission: Impossible – Rogue Nation",
+      "poster": "https://i.imgur.com/4e0LVMK.jpg",
+      "overview": "เมื่อองค์กรไอเอ็มเอฟปิดตัวลง สายลับอีธาน ฮันท์และพันธมิตรจึงประกาศสงครามกับ ซินดิเคท กลุ่มสายลับที่ทรยศต่อองค์กรและวางแผนที่จะทำลายล้างโลก",
+      "youtube": "gOW_azQbOjw",
+      "director": "Christopher McQuarrie",
+      "writers": " Bruce Geller, Christopher McQuarrie",
+      "star": "Tom Cruise, Rebecca Ferguson, Jeremy Renner",
+      "vote_average": 7.4
+    },
+    {
+      "id": 2,
+      "title": "Moonlight",
+      "poster": "https://cdn.pastemagazine.com/www/system/images/photo_albums/best-movie-posters-2016/large/moonlight-ver2-xlg.jpg",
+      "overview": "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood.",
+      "youtube": "9NJj12tJzqc",
+      "director": "Barry Jenkins",
+      "writers": " Barry Jenkins, Tarell Alvin McCraney",
+      "star": "Mahershala Ali, Naomie Harris, Trevante Rhodes",
+      "vote_average": 7.4
+    },
+    {
+      "id": 3,
+      "title": "John Wick: Chapter 2",
+      "poster": "https://images-na.ssl-images-amazon.com/images/I/81H5XR97csL._AC_SL1500_.jpg",
+      "overview": "หลังมีปัญหากับแก๊งอันธพาลที่ไม่อยากร่วมงานด้วยบวกกับค่าหัวตัวเองที่พุ่งกระฉูด ก็ถึงเวลาที่จอห์น วิคจะต้องออกโรงอีกครั้ง",
+      "youtube": "XGk2EfbD_Ps",
+      "director": "Chad Stahelski",
+      "writers": "Derek Kolstad, Derek Kolstad",
+      "star": "Keanu Reeves, Riccardo Scamarcio, Ian McShane",
+      "vote_average": 7.5
+    },
+    {
+      "id": 4,
+      "title": "Oxygen",
+      "poster": "https://dnm.nflximg.net/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAABbulDOvVJfdW_mN3wVpNfApG5jRYYn1sw-jSiVyUQPQdvBJFFV9HN6kVU1wMoMwEbjFDU3FgQagXkQFVlEGoPNHXdf-sw_Zxb-I1DQ8y8tv8t8Wh6dw5oQ_alWgcWg.jpg?r=fc2",
+      "overview": "หลังจากฟื้นขึ้นมาในแคปซูลแช่แข็ง ลิซต้องหาทางเอาชีวิตรอดและนึกให้ออกว่าตัวเองเป็นใครก่อนที่ออกซิเจนจะหมดลง",
+      "youtube": "8IqXgZd-P98",
+      "director": "Alexandre Aja",
+      "writers": "Christie LeBlanc",
+      "star": "Mélanie Laurent, Mathieu Amalric, Malik Zidi",
+      "vote_average": 6.1
+    },
+    {
+      "id": 5,
+      "title": "Old Guard",
+      "poster": "https://s359.kapook.com/rq/500/auto/50/pagebuilder/f19b54c0-44af-40ba-82ff-f8bab55e832d.jpg",
+      "overview": "สี่นักรบผู้ไม่มีวันตายคอยปกป้องมนุษยชาติอย่างลับๆ มาหลายศตวรรษตกเป็นเป้าเพราะพลังลึกลับของตน เมื่อค้นพบผู้เป็นอมตะรายใหม่",
+      "youtube": "aK-X2d0lJ_s",
+      "director": "Gina Prince-Bythewood",
+      "writers": "Greg Rucka, Leandro Fernandez",
+      "star": "Charlize Theron, KiKi Layne, Matthias Schoenaerts",
+      "vote_average": 6.7
+    },
+    {
+      "id": 6,
+      "title": "Ghost Lab",
+      "poster": "https://i.imgur.com/niLnhgL.jpg",
+      "overview": "After witnessing a haunting in their hospital, two doctors become dangerously obsessed with obtaining scientific proof that ghosts exist.",
+      "youtube": "RN9G-g5PhJE",
+      "director": "Paween Purijitpanya",
+      "writers": "Vasudhorn Piyaromna, Paween Purijitpanya",
+      "star": "Thanapob Leeratanakachorn, Paris Intarakomalyasut, Nuttanicha Dungwattanawanich",
+      "vote_average": 9.43
+    },
+    {
+      "id": 7,
+      "title": "Shawshank Redemption",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "overview": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "youtube": "6hB3S9bIaco",
+      "director": "Frank Darabont",
+      "writers": "Stephen King, Frank Darabont",
+      "star": "Tim Robbins, Morgan Freeman, Bob Gunton",
+      "vote_average": 9.3
+    },
+    {
+      "id": 8,
+      "title": "The Godfather",
+      "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "overview": "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.",
+      "youtube": "sY1S34973zA",
+      "director": "Francis Ford Coppola",
+      "writers": "Mario Puzo, Francis Ford Coppola",
+      "star": "Marlon Brando, Al Pacino, James Caan",
+      "vote_average": 9.2
+    }
+  ],
+  "moviesNews": [
+    {
+      "id": 1,
+      "title": "สตีเว่น สปีลเบิร์ก พ่อมดฮอลลีวู้ด เสกมนต์ใน West Side Story รีเมค หนังตำนาน",
+      "detail": "West Side Story ภาพยนตร์ระดับตำนานเจ้าของ 10 รางวัลออสการ์ รวมถึงสาขาภาพยนตร์ยอดเยี่ยม กำลังกลับมารีเมคใหม่ผ่านฝีมือการกำกับของพ่อมดแห่งฮอลลีวู้ด สตีเว่น สปีลเบิร์ก ล่าสุดได้ฤกษ์ปล่อยโฉมแรกให้ได้ชมกันแล้ว โดยเป็นภาพของนักแสดงหลักในฉากที่แฟนหนังยุคคลาสสิคคุ้นเคย พร้อมกับบทเพลง Somewhere ซึ่งเป็นหนึ่งในเพลงเด่นของเรื่อง พร้อมทั้งเสียงผิวปาก มุมกล้องแบบที่หนังต้นฉบับเคยทำไว้ <br> Ansel Elgort จาก Baby Driver รับบทเป็น โทนี่  Rachel Zegler รับบทเป็นมาเรีย  พระเอกนางเอกที่รักกันท่ามกลางความขัดแย้งของกลุ่มเจ็ต และ ชาร์ค สองกลุ่มวัยรุ่นที่แย่งชิงความเป็นใหญ่และมีความบาดหมางกัน เล่าผ่านเสียงเพลงและท่าเต้นสุดงดงาม ซึ่ง West Side Story ได้รับการยกย่องชื่นชมว่านี่คือหนึ่งในหนังเพลงที่มีฉากเต้นดีที่สุด รวมถึงโศกนาฏกรรมที่สร้างความสะเทือนใจให้กับคนดู  โดยภาพยนตร์ฉบับใหม่มีกำหนดฉายปลายปีนี้  ",
+      "image": "https://cdn.majorcineplex.com/uploads/content/20745/cover_20745.jpg",
+      "date": "24 เม.ย. 2021"
+    },
+    {
+      "id": 2,
+      "title": "Fast 9 ปล่อยคลิปใหม่ วิน ดีเซล พร้อมพาผู้ชมกลับสู่โรงหนังอีกครั้ง",
+      "detail": "Fast & Furious 9 ปล่อยคลิปโปรโมทใหม่ เปิดคลิปด้วย วิน ดีเซล และรถคู่ใจของเขา พร้อมรอคอยวันที่ผู้ชมกลับสู่โรงภาพยนตร์อีกครั้ง โดยวิน ดีเซล เผยว่า มันผ่านมาสักพักแล้ว ถนนว่างเปล่า สถานที่ที่เราเคยรวมตัวกันเงียบไป เราผ่านปีที่ทดสอบเรามาตลอด แต่เรากำลังเริ่มเห็นสัญญาณของวันใหม่ มีสถานที่แห่งหนึ่งที่เราทุกคนมารวมตัวกันเพื่อรับความบันเทิง เพื่อดูหนัง ไม่มีอะไรที่เหมือนกับช่วงเวลาที่เมื่อไฟหรี่ลงแล้วเริ่มฉายหนังและเรามีความเชื่อแบบนั้น",
+      "image": "https://cdn.majorcineplex.com/uploads/content/20755/cover_20755.jpg",
+      "date": "24 เม.ย. 2021"
+    },
+    {
+      "id": 3,
+      "title": "เควิน ไฟกีแอบหวังให้ Eternals คว้าออสการ์ และ Avengers 5 เป็นหนังที่ยิ่งใหญ่ที่สุด",
+      "detail": "หลังจากจบมหากาพย์ Infinity Stones ไปแล้ว ผ่านภาพยนตร์กว่า 20 เรื่อง และระยะเวลาการเล่ายาวนานกว่า 10 ปี ตอนนี้ Marvel Cinematic Universe ก็ได้ฤกษ์เดินหน้าต่อไปในเฟสที่ 4 ที่คราวนี้พวกเขามาในทิศทางใหม่กับการใส่ความหลากหลายเข้าไปในเรื่องราว ทั้งเชื้อชาติ เพศ และความแตกต่างอีกมากมายจากทั้ง 3 เฟสก่อนหน้านี้ และพวกเขาก็ได้เริ่มต้นไปแล้วผ่านซีรีส์ที่ฉายลงบนสตรีมมิ่ง Disney+ และภาพยนตร์เรื่องต่อ ๆ ไปหลังจากนี้ ดูเหมือนว่าเควิน ไฟกีจะคาดหวังให้ภาพยนตร์หลังจากนี้ของพวกเขาก้าวไปให้ไกลกว่าที่เคย",
+      "image": "https://cdn.majorcineplex.com/uploads/content/20752/thumb_20752.jpg",
+      "date": "25 เม.ย. 2021"
+    },
+    {
+      "id": 4,
+      "title": "คอนเฟิร์ม!! เจสัน สเตแธม กลับมาใน The Meg 2 เริ่มถ่ายต้นปีหน้า",
+      "detail": "The Meg คือหนึ่งในภาพยนตร์ที่สร้างเซอร์ไพร์สได้พอสมควรเลยทีเดียว จากทุนสร้าง 130 ล้าน ภาพยนตร์เรื่องนี้สามารถกวาดรายได้ทั่วโลกไปถึง $530.24 ล้าน ด้วยความระทึกและความยิ่งใหญ่ของฉลามยักษ์ ผสมกับการแสดงของเจสัน สเตแธม และทัพนักแสดงที่หลากหลาย ทำให้ภาพยนตร์เรื่องนี้ประสบความสำเร็จมากพอที่ทางสตูดิโอจะไฟเขียวในการสร้างภาคต่อ",
+      "image": "https://cdn.majorcineplex.com/uploads/content/20751/cover_20751.jpg",
+      "date": "29 เม.ย. 2021"
+    },
+    {
+      "id": 5,
+      "title": "ตัวจริงฟิตจริง! เดอะ ร็อคสามารถสวมชุด Black Adam โดยไม่ต้องเสริมกล้าม",
+      "detail": "หลังจากจบมหากาพย์การปูทางสู่ภาพยนตร์เรื่อง Justice League ภายใต้วิสัยทัศน์ของแซค ไสนเดอร์ ของ DCEU ไป ตอนนี้ทางดีซีเองก็กำลังก้าวเดินไปในทิศทางใหม่ ๆ สร้างความหลากหลายภายใต้สิ่งที่พวกเขาเรียกว่า พหุจักรวาล หรือ มัลติเวิร์ส และหนึ่งในภาพยนตร์ที่น่าสนใจมากที่สุดเรื่องหนึ่งเลยก็คือ Black Adam แอนตี้ฮีโร่สุดแข็งแกร่งที่รับบทโดยนักแสดงสุดแข็งแกร่ง ดเวนย์ เดอะ ร็อค จอห์นสัน ",
+      "image": "https://cdn.majorcineplex.com/uploads/content/20756/cover_20756.jpg",
+      "date": "29 เม.ย. 2021"
+    },
+    {
+      "id": 6,
+      "title": "Godzilla vs. Kong กวาดรายได้ท้่วโลกผ่านหลัก $400 ล้าน",
+      "detail": "Box Office Mojo รายงานรายได้การฉายภาพยนตร์ Godzilla vs. Kong แม้ทั่วโลกจะประสบกับภาวะระบาดของโควิด-19 โดย ล่าสุด Godzilla vs. Kong กวาดรายได้รวมทั่วโลกอยู่ที่  406 ล้านดอลล่าร์  ขึ้นแท่นอันดับที่ 3 หนังในจักรวาลมอนสเตอร์ทำรายได้สูงสุด",
+      "image": "https://cdn.majorcineplex.com/uploads/content/20729/cover_20729.jpg",
+      "date": "26 เม.ย. 2021"
+    },
+    {
+      "id": 7,
+      "title": "สูสี! Mortal Kombat vs. Demon Slayer หมัดต่อหมัดบนตารางหนังทำเงินอเมริกา",
+      "detail": "ในขณะที่สถานการณ์โรงภาพยนตร์ของประเทศสหรัฐอเมริกากำลังมีแนวโน้มที่ดีขึ้นในช่วงเวลานี้ ทำให้ภาพยนตร์หลายเรื่องเริ่มทยอยเข้าฉายและทำรายได้ให้อุตสาหกรรมนี้ได้กลับมาครึกครื้นอีกครั้ง และในสัปดาห์ที่ผ่านมาก็เป็นอีกสัปดาห์ที่มีการขับเคี่ยวกันอย่างสูสีบนตารางหนังทำเงินของประเทศสหรัฐอเมริกา นั่นคือการฟาดฟันกันระหว่างภาพยนตร์เรื่อง Mortal Kombat และ Demon Slayer: Mugen Train",
+      "image": "https://cdn.majorcineplex.com/uploads/content/20731/cover_20731.jpg",
+      "date": "24 เม.ย. 2021"
+    }
+  ]
+}
