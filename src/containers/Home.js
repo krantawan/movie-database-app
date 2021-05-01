@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import axios from 'axios';
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-
+import MovieMain from '../components/Movie/MovieMain';
+import MovieRanking from '../components/Ranking/MovieRanking'
+import MovieNews from '../components/Movie/MovieNews';
 
 export default class Home extends Component {
     constructor(props) {
@@ -24,7 +26,9 @@ export default class Home extends Component {
             <div>
                 <Header />
                     <div className="container p-1 bg-white border-top-0">
-                        
+                        <MovieRanking />
+                        <MovieMain movies={this.state.movies}/>
+                        <MovieNews news={this.state.movieNews}/>
                     </div>
                 <Footer />
             </div>
