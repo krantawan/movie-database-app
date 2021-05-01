@@ -1,15 +1,18 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/logo.png"
+import { faEye } from '@fortawesome/free-solid-svg-icons';
+import { faListAlt } from '@fortawesome/free-solid-svg-icons';
+import { faPlusSquare } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class Header extends Component {
 
   render() {
-
     return (
       <div>
         {
-          window.location.pathname === "/" || window.location.pathname === "/news" || window.location.pathname === "/about" ?
+          window.location.pathname === "/" || window.location.pathname === "/news" || window.location.pathname === "/about" || window.location.pathname === "/movie/" ?
             <div>
               <div className="bg-white">
                 <div className="container p-2">
@@ -54,20 +57,20 @@ class Header extends Component {
                   <div className="collapse navbar-collapse font-weight-bold" id="navbarSupportedContent">
                     <ul className="navbar-nav mr-auto">
                       <li className="nav-item">
-                        <Link className="nav-link text-mute" to="/admin">รายการหนัง</Link>
+                        <Link className="nav-link text-mute" to="/admin"><FontAwesomeIcon icon={faListAlt} /> รายการหนัง</Link>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link text-mute" to="/anews">รายการข่าว</Link>
+                        <Link className="nav-link text-mute" to="/anews"><FontAwesomeIcon icon={faListAlt} /> รายการข่าว</Link>
                       </li>
                       
                       <li className="nav-item">
-                        <Link className="nav-link text-mute" to="/admin/add">เพิ่มหนัง</Link>
+                        <Link className="nav-link text-mute" to="/admin/add"><FontAwesomeIcon icon={faPlusSquare} /> เพิ่มหนัง</Link>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link text-mute" to="/admin/addnews">เพิ่มข่าว</Link>
+                        <Link className="nav-link text-mute" to="/admin/addnews"><FontAwesomeIcon icon={faPlusSquare} /> เพิ่มข่าว</Link>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link text-mute" to="/">ดูเว็บไซต์</Link>
+                        <Link className="nav-link text-mute" to="/"><FontAwesomeIcon icon={faEye} /> ดูเว็บไซต์</Link>
                       </li>
                     </ul>
                   </div>

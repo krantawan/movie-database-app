@@ -42,7 +42,7 @@ export default class MovieRankList extends Component {
                                         })()}
                                     </div>
                                 </div>
-                                <Link to={"movie/" + res.id}><img className="rounded" alt="" width="100%" height="271" src={res.poster} /></Link>
+                                <Link to={"movie/" + res.id}><img className="rounded" alt="" width="100%" height="300" src={res.poster} /></Link>
                             </div>
                         </li>
                     ))}

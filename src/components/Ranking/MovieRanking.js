@@ -64,7 +64,7 @@ export default class MovieRanking extends Component {
                             <img style={{ marginTop: "20%" }} alt="" src={rank} />
                             <div className="ranking-score badge bg-light text-dark">{ this.state.movies.map(res => res.vote_average)}</div>
                         </div>
-                        <Link to={ "movie/" + this.state.movies.map(res => res.id)}><img className="rounded" alt="" width="350" height="555" src={ this.state.movies.map(res => res.poster)} /></Link>
+                        <Link to={ "movie/" + this.state.movies.map(res => res.id)}><img className="rounded" alt="" width="370" height="610" src={ this.state.movies.map(res => res.poster)} /></Link>
                     </div>
                     <MovieRankList />
                 </div>

@@ -12,6 +12,8 @@ class Admin extends Component {
         this.state = {movies : "" , movieNews : ""};
         this.deleteMovie = this.deleteMovie.bind(this);
         this.editMovie = this.editMovie.bind(this);
+        this.deleteNews = this.deleteNews.bind(this);
+        this.editNews = this.editNews.bind(this);
         console.log(this.state)
     }
     
@@ -54,9 +56,46 @@ class Admin extends Component {
         }
     }
 
+    deleteNews(id) {
+        if(id) {
+            Swal.fire({
+                title: 'คุณแน่ใจหรือไม่ ?',
+                text: "คุณจะไม่สามารถย้อนกลับมาได้อีก!",
+                icon: 'warning',
+                showCancelButton: true,
+                confirmButtonColor: '#3085d6',
+                cancelButtonColor: '#d33',
+                confirmButtonText: 'ลบ!',
+                cancelButtonText: 'ยกเลิก'
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    Swal.fire(
+                        'ลบ!',
+                        'ข่าวภาพยนต์ของคุณลบสำเร็จ.',
+                        'success'
+                    )
+                    axios.delete("http://localhost:3001/moviesNews/" + id).then(res => {
+                        axios.get("http://localhost:3001/moviesNews").then(
+                            res => {
+                                this.setState({movieNews : res.data});
+                            }
+                        )
+                    })
+                }
+            })
+        }
+    }
+
     editMovie(id) {
         axios.get("http://localhost:3001/movies" + id ).then( res => {
           this.setState({ movies : res.data});
+        });
+        
+    }
+
+    editNews(id) {
+        axios.get("http://localhost:3001/moviesNews" + id ).then( res => {
+          this.setState({ movieNews : res.data});
         });
         
     }
@@ -81,7 +120,7 @@ class Admin extends Component {
                             <MovieAdminList movies={this.state.movies} onEditMovie={this.editMovie} onDeleteMovie={this.deleteMovie}/>
                             :
                             window.location.pathname === "/anews" ? 
-                            <MovieAdminNewsList news={this.state.movieNews} /> : ""
+                            <MovieAdminNewsList news={this.state.movieNews} onEditNews={this.editNews} onDeleteNews={this.deleteNews}/> : ""
                             }
                             
                         </tbody>
