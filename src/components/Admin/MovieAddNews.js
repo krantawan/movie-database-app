@@ -73,6 +73,7 @@ export default class MovieAddNews extends Component {
                                 <div class="d-grid gap-2"><button type="submit" className="btn btn-success btn-block"><FontAwesomeIcon icon={faPlus} /> เพิ่ม</button></div>
                             </form>
                         </div>
+                        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                     </div>
                     <Footer />    
             </div>

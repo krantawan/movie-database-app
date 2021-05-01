@@ -37,7 +37,7 @@ export default class MovieRankList extends Component {
                                             } else if (index + 1 === 3) {
                                                 return <img src={medal3} alt="" />
                                             } else {
-                                                <div className="badge bg-light text-dark"> {index + 1} | {res.vote_average}</div>
+                                                return <div className="badge bg-light text-dark"> {index + 1} | {res.vote_average}</div>
                                             }
                                         })()}
                                     </div>

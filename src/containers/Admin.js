@@ -4,6 +4,7 @@ import MovieAdminList from "../components/Admin/MovieAdminList";
 import Swal from 'sweetalert2';
 import Header from "../components/Header";
 import MovieAdminNewsList from "../components/Admin/MovieAdminNewsList";
+import Footer from "../components/Footer";
 
 class Admin extends Component {
 
@@ -125,7 +126,9 @@ class Admin extends Component {
                             
                         </tbody>
                     </table>
+                    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
                 </div>
+                <Footer />
             </div>
         )
     }

@@ -2,9 +2,15 @@
 
 html, body {
   height: 100%;
-  background: rgb(242, 242, 247) !important;
+  background: rgb(242, 242, 247) url('./assets/images/background.png') !important;
   font-family: 'Prompt', sans-serif !important;
   line-height: 1!important;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+}
+
+a {
+  text-decoration: none!important;
 }
 
 .ranking-display ul {
