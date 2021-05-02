@@ -13,7 +13,7 @@ export default class Home extends Component {
     }
 
     componentDidMount() {
-        axios.get("http://localhost:3001/movies").then( res => {
+        axios.get("http://localhost:3001/movies?_sort=id&_order=desc").then( res => {
           this.setState({ movies : res.data});
         });
         axios.get("http://localhost:3001/moviesNews?_limit=4&_order=desc").then( res => {
